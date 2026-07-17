@@ -1,7 +1,7 @@
 :root {
     --primary-color: #0b6e8c;
     /* river blue */
-    --secondary-color: #e8f4f8;
+    --secondary-color: #234145;
     /* whitewater foam */
     --accent1-color: #1a3c40;
     /* deep slate */
@@ -83,7 +83,13 @@ article {
     top: 100px;
     left: 400px;
     width: 350px;
-    background-color: rgba(26, 60, 64, 0.75);
+    background-color: var(--secondary-color);
+    opacity: 0.8;
     padding: 12px;
     color: #fff;
+}
+
+h2 {
+    border-bottom: 2px solid var(--accent2-color);
+    display: inline-block;
 }
